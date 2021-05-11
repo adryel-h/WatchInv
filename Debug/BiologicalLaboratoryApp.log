@@ -1,0 +1,11 @@
+﻿  Controler.cpp
+C:\Programe VS\OOP\BiologicalLaboratoryApp\Controler.cpp(14,21): warning C4018: '<': signed/unsigned mismatch
+  UI.cpp
+C:\Programe VS\OOP\BiologicalLaboratoryApp\UI.cpp(26,24): warning C4018: '<': signed/unsigned mismatch
+C:\Programe VS\OOP\BiologicalLaboratoryApp\UI.cpp(45,24): warning C4018: '<': signed/unsigned mismatch
+C:\Programe VS\OOP\BiologicalLaboratoryApp\UI.cpp(102,25): warning C4018: '<': signed/unsigned mismatch
+C:\Programe VS\OOP\BiologicalLaboratoryApp\UI.cpp(160,22): warning C4018: '<': signed/unsigned mismatch
+C:\Programe VS\OOP\BiologicalLaboratoryApp\UI.cpp(174,23): warning C4018: '<': signed/unsigned mismatch
+C:\Programe VS\OOP\BiologicalLaboratoryApp\UI.cpp(212,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  BiologicalLaboratoryApp.vcxproj -> C:\Programe VS\OOP\BiologicalLaboratoryApp\Debug\WatchStore.exe
