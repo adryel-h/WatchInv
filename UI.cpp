@@ -12,7 +12,7 @@ void UI::Load()
 	bool done;
 	int operation = 1;
 	Controler co;
-	co.load();
+	co.load("databases.csv");
 	while (operation) {
 		cout << menu;
 		cin >> operation;
@@ -220,5 +220,5 @@ void UI::Load()
 		operation = 1;
         }
 	}
-	co.savedata();
+	co.savedata("databases.csv");
 }

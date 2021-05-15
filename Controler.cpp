@@ -1,10 +1,10 @@
 #include "Controler.h"
 
-void Controler::load() {
+void Controler::load(string filename) {
 	/**
 	* This is the function that loads the data from the databases.csv file into the repository
 	**/
-	ifstream f("databases.csv");
+	ifstream f(filename);
 	string line;
 	vector<string>helper;
 	while (getline(f, line)) {
@@ -122,12 +122,12 @@ vector<Watch*> Controler::getAll()
 	return stock.getAll();
 }
 
-void Controler::savedata() {
+void Controler::savedata(string filename) {
 	/**
 	* After the user ends the program, this function is called. It saves the contents of the repository in the
 	* database.csv file overwritting it's contents.
 	**/
-	ofstream g("databases.csv");
+	ofstream g(filename);
 	for (int i = 0; i < stock.size(); i++) {
 		int id = stock.getWatch(i)->getId();
 		g << id<<",";
@@ -154,6 +154,7 @@ void Controler::savedata() {
 	}
 	g.close();
 	stack.release();
+	stock.clear();
 }
 
 vector<Watch*> Controler::filter(Types t) {

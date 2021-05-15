@@ -20,6 +20,7 @@ public:
     vector<Watch*> filterM();
     vector<Watch*> filterS();
     vector<Watch*> getAll();
+    void clear();
 private:
     vector<Watch*>repo;
 };

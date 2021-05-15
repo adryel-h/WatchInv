@@ -8,8 +8,8 @@ int main() {
 	{
 		UI ui;
 		ui.Load();
-		TestClass obj;
-		obj.testAll();
+	/*	TestClass obj; // uncomment for testing
+		obj.testAll(); */
 	}
 	_CrtDumpMemoryLeaks();
 	return 0;

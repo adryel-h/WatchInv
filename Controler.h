@@ -13,16 +13,16 @@ class Controler
 	* This is the controller class
 	**/
 public:
-	void load();
-	void addMechanicWatch(Types type, string brand, string model, string colour, string Movement, string DialType);
-	void addMechanicWatch(int id, Types type, string brand, string model, string colour, string Movement, string DialType);
-	void addSmartWatch(Types type, string brand, string model, string colour, string os, bool heartratesensor, bool wirelesscharge);
-	void addSmartWatch(int id, Types type, string brand, string model, string colour, string os, bool heartratesensor, bool wirelesscharge);
-	vector<Watch*> filter(Types tp);
-	bool remove(int id);
-	bool undo();
-	vector<Watch*> getAll();
-	void savedata();
+	void load(string filename); //done
+	void addMechanicWatch(Types type, string brand, string model, string colour, string Movement, string DialType); //done
+	void addMechanicWatch(int id, Types type, string brand, string model, string colour, string Movement, string DialType); //done
+	void addSmartWatch(Types type, string brand, string model, string colour, string os, bool heartratesensor, bool wirelesscharge); //done
+	void addSmartWatch(int id, Types type, string brand, string model, string colour, string os, bool heartratesensor, bool wirelesscharge); //done
+	vector<Watch*> filter(Types tp); //done
+	bool remove(int id); // done
+	bool undo(); // done
+	vector<Watch*> getAll(); //done
+	void savedata(string filename); //done
 private:
 	Repository stock;
 	OperationTracker stack;

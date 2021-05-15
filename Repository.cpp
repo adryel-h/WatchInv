@@ -83,3 +83,11 @@ vector<Watch*> Repository::getAll()
 	**/
 	return repo;
 }
+
+void Repository::clear()
+{
+	/**
+	* This function clears the vector representing the repo
+	**/
+	repo.clear();
+}

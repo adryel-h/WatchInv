@@ -162,6 +162,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="databases.csv" />
+    <None Include="TestDatabase.csv" />
+    <None Include="TestSave.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

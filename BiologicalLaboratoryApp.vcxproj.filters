@@ -71,5 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="databases.csv" />
+    <None Include="TestDatabase.csv" />
+    <None Include="TestSave.csv" />
   </ItemGroup>
 </Project>
